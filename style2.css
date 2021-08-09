@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #d3d3d3,#9da0a7) ;
+    font-family: 'Robot Mono',monospace ;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 50px;
+}
+
+.counter{
+    font-size: 60px;
+}
+
+.fa-facebook-f{
+ font-size: 75px;
+ color: rgb(36, 80, 146);   
+}
+
+.fa-youtube{
+    font-size: 75px;
+    color: rgb(236, 25, 10);  
+}
+
+.fa-twitter{
+    font-size: 75px;
+    color: rgb(18, 172, 243);  
+}
+
+@media(max-width:580px){
+body{
+flex-direction: column;
+}
+}
